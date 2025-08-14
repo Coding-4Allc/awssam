@@ -70,7 +70,7 @@ jobs:
           echo "GET /hello:"
           curl -s http://127.0.0.1:3000/hello
 
-          echo "GET /hello?name=Raj:"
+          echo "GET /hello?name=chandu:"
           curl -s "http://127.0.0.1:3000/hello?name=Raj"
 
       - name: Stop local API
